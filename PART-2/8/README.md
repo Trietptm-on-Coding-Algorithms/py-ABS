@@ -119,7 +119,7 @@
 		- Check the destination relative to current location.
 
   2. What does an absolute path start with?
-		- `\`
+		- `/`
 	
   3. What do the os.getcwd() and os.chdir() functions do?
 		- get the current working directory and change the working directory to other location 
