@@ -113,3 +113,31 @@
 		mcbShelf.close()
 
 
+**Practice Quesrions**
+
+  1. What is a relative path relative to?
+		- Check the destination relative to current location.
+
+  2. What does an absolute path start with?
+		- `\`
+	
+  3. What do the os.getcwd() and os.chdir() functions do?
+		- get the current working directory and change the working directory to other location 
+
+	4. What are the . and .. folders?
+		- `.` Current location and `..` one step back folder location 
+ 
+	5. In C:\bacon\eggs\spam.txt, which part is the dir name, and which part is the base name?
+		- `C:\bacon\eggs\` - Dir , base - `spam.txt`
+	
+	6. What are the three “mode” arguments that can be passed to the open() function?
+		- Read , Write and Append.
+	
+	7. What happens if an existing file is opened in write mode?
+		- It gets overwritten.
+ 
+	8. What is the difference between the read() and readlines() methods?
+		- read - `read the line till line break(\n) and store it in a variable`
+		- readlines - `read the multiple lines till line break(\n) and store it in list`		
+	9. What data structure does a shelf value resemble?
+ 		- `Instance`
